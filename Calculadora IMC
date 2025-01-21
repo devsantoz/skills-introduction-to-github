@@ -1,0 +1,13 @@
+peso = float(input('Qual o seu peso?'))
+altura = float(input('Qual a sua altura? obs: ultilize em metros!'))
+s: float = altura*altura
+imc: float = peso//s
+print('Seu imc será de {}'.format(imc))
+print('')
+print('Categoria |	IMC (kg/m²')
+print('Abaixo do peso | Menos de 18,5')
+print('Peso normal	|  18,5 a 24,9')
+print('Sobrepeso	|  25 a 29,9')
+print('Obesidade grau 1  | 30 a 34,9')
+print('Obesidade grau 2  |	35 a 39,9')
+print('Obesidade grau 3  |	40 ou mais')
